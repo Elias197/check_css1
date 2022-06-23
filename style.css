@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #747474;
+    -webkit-font-smoothing:antialiased;
+}
+nav{
+    margin-left: 250px;
+    margin-right: 250px;
+    --main-text-color:#08CCB1;
+    position: sticky;
+}
+.logo{
+    width: 270px;
+}
+.nav-item {
+    color: var(--main-text-color);
+    font-weight: 400;
+}
+
+.nav-item:hover >.dropdown-menu{
+    display: block;
+
+
+}
+ 
+.big-logo{
+    width: 40px;
+    height: 40px;
+}
+.img{
+    text-align: center;
+    margin: 30px;
+}
+h1{
+    color: var(--main-text-color);
+    font-size: 32px;
+    text-align: center;
+}
+h1, h2, h3, h4{
+    margin: 16px 0;
+    font-family:"Helvetica Neue","Helvetica,Arial",sans-serif;
+    font-weight: 300;
+}
+
+.block1, .block2, .block3{
+    display: block;
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    text-align: center;
+}
+.block1{
+    background-color: #08CCB1;
+}
+.block2{
+    background-color: #3b83df;
+}
+.block3{
+    background-color: rgb(118, 3, 3);
+}
+
+.flex-container {
+    display:block;
+    margin-top: 40px;
+    margin-bottom: 50px;    
+}
+.flex-text {
+    float: left;
+    width: 36%;
+    font-size: 30px;
+    margin: 5px 0 5px 10px;
+    padding-right: 16px;
+    text-align: left;
+    margin-right: 50px;
+}
+.flex-container ul {
+    display:block;
+    justify-content:end;
+    width: 121%;
+    list-style: none;
+}
+.flex-container li {
+    font-size: 16px;
+    display: inline-block;
+    padding: 15px ;
+    font-weight: 400;
+    cursor: pointer;
+    color: #D3D3D3;    
+}
+
+.flex-container li:hover > .flex-logo,
+.flex-container li:hover{
+    color: var(--main-text-color);
+    filter:100%p;
+}
+footer {
+    font-size: 12px;
+    color: #ababab;
+    text-align: center;
+}
+
+hr {
+    /* border: 0; */
+    clear:both;
+    display:block;
+    width: 100vw;    
+    margin-left: -16vw;           
+    margin-right: -50vw;    
+    /* top: 0;        */
+    /* left: 0; */
+    background-color:#000;
+    /* opacity: 0.1; */
+    height: 1px;
+}
+
